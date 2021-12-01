@@ -1,0 +1,5 @@
+<h1>Digite um estado</h1>
+
+<input (change)="mudaCampo($event)" />
+
+<p *ngFor="let estado of estados">{{ estado.nome }} - {{ estado.sigla }}</p>
